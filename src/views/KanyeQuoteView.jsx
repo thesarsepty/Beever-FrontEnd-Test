@@ -34,7 +34,12 @@ export default function KanyeQuoteView() {
 
   return (
     <section style={{ textAlign: "center" }}>
-      <h1 style={{ fontSize: "60px" }}>Kanye-West Quote</h1>
+      <img
+        src="https://images.businessoffashion.com/profiles/asset/1797/43897e2e4a6d155d72dd9df352017b546ef9e229.jpeg"
+        alt="W3Schools.com"
+        style={{ width: "300px" }}
+      />
+      <h1 style={{ fontSize: "40px", marginTop: "10px" }}>Kanye-West Quote</h1>
 
       <h3>{currentKanyeQuote.length > 0 && currentKanyeQuote}</h3>
       <button onClick={() => fetchKanyeQuote()}>Get Quote</button>
