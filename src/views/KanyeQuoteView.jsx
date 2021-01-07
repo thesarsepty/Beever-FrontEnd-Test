@@ -21,7 +21,7 @@ export default function KanyeQuoteView() {
 
   useEffect(() => {
     fetchKanyeQuote();
-  }, []);
+  }, [fetchKanyeQuote]);
 
   const addFavoriteKanyeQuote = () => {
     const sameKanyeQuote = kanyeQuoteList.filter(
