@@ -1,0 +1,3 @@
+export const SET_QUOTES = 'SET_QUOTES'
+export const SET_FAVORITES = 'SET_FAVORITES'
+export const SET_MYQUOTES = 'SET_MYQUOTES'
